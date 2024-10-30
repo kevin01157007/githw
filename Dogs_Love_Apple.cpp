@@ -6,6 +6,7 @@ int main(){
     vector<int> piles(n);
     for(int i = 0; i < n; i++) cin >> piles[i];
     int h;
+    int y;
     cin >> h;
     int left = 1, right = *max_element(piles.begin(), piles.end());
     while (left < right) {
